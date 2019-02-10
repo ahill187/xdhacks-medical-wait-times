@@ -1,0 +1,22 @@
+<div class="login">
+  <div class="container">
+    <div class="form">
+
+      <h1>Sign up</h1>
+
+      <%= form_for(@clinic) do |f| %>
+        <div class="field">
+          <%= f.text_field :clinic_name, :placeholder => "Clinic Name" %>
+          <%= f.email_field :email, :placeholder => "Email" %>
+          <%= f.password_field :password_digest, :placeholder => "Password" %>
+        </div>
+        <div class="actions">
+          <%= f.submit "Create account", class: "btn-submit" %>
+        </div>
+      <% end %>
+
+
+
+    </div>
+  </div>
+</div>
