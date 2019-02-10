@@ -214,7 +214,11 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 RUBY VERSION
+<<<<<<< Updated upstream
    ruby 2.6.1p33
+=======
+   ruby 2.6.1
+>>>>>>> Stashed changes
 
 BUNDLED WITH
    1.17.2
